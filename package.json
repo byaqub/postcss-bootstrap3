@@ -9,8 +9,12 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "bootstrap": "^3.3.7"
+  },
+  "devDependencies": {
+    "gulp-less": "^3.3.2",
+    "postcss": "^6.0.14",
     "autoprefixer": "^7.1.6",
-    "bootstrap": "^3.3.7",
     "gulp": "^3.9.1",
     "gulp-postcss": "^7.0.0",
     "gulp-watch": "^4.3.11",
@@ -20,9 +24,5 @@
     "postcss-mixins": "^6.2.0",
     "postcss-nested": "^2.1.2",
     "postcss-simple-vars": "^4.1.0"
-  },
-  "devDependencies": {
-    "gulp-less": "^3.3.2",
-    "postcss": "^6.0.14"
   }
 }
