@@ -7,7 +7,7 @@ cssimports = require('postcss-import'),
 mixins = require('postcss-mixins'),
 hexrgba = require('postcss-hexrgba'),
 less = require('gulp-less');
-const bootstrapSourceEntryPoint = './node_modules/bootstrap/less/bootstrap.less';
+const bootstrapSourceEntryPoint = './bootstrap/less/styles.less';
 
 gulp.task('styles', () => {
   return gulp.src(bootstrapSourceEntryPoint)
